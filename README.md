@@ -5,8 +5,9 @@ Symlink files to `~/Library/Application Support/Code/User`
 See [extensions](https://github.com/davidyezsetz/.vscode/tree/master/extensions)
 
 ##Keyboard Shortcuts
+
 | Command              | Description             |
-|----------------------|-------------------------|
+|----------------------|:-----------------------:|
 | acejumper            | `alt + enter`           |
 | expand region        | `ctrl-w`                |
 | retract region       | `ctrl-shift-w`          |
