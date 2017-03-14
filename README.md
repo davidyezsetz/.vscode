@@ -1,4 +1,5 @@
 # Visual Studio Code plugins and settings
+Symlink files to `~/Library/Application Support/Code/User`
 
 ## Extensions
 See [extensions](https://github.com/davidyezsetz/.vscode/tree/master/extensions)
