@@ -2,5 +2,6 @@
 [
   { "key": "alt+enter", "command": "extension.aceJump" },
   { "key": "ctrl+w","command": "expand_region", "when": "editorTextFocus" },
-  { "key": "ctrl+shift+w","command": "undo_expand_region", "when": "editorTextFocus && editorHasSelection" }
+  { "key": "ctrl+shift+w","command": "undo_expand_region", "when": "editorTextFocus && editorHasSelection" },
+  { "key": "cmd+alt+b", "command": "HookyQR.beautify", "when": "editorFocus" }
 ]

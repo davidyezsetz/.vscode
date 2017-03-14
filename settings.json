@@ -8,5 +8,8 @@
     "sync.version": 251,
     "sync.showSummary": true,
     "sync.forceDownload": false,
-    "sync.anonymousGist": false
+    "sync.anonymousGist": false,
+    "editor.tabSize": 2,
+    "languageStylus.useSeparator": false,
+    "editor.wordWrap": "on"
 }
