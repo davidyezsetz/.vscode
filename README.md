@@ -4,7 +4,7 @@ Symlink files to `~/Library/Application Support/Code/User`
 ## Extensions
 See [extensions](https://github.com/davidyezsetz/.vscode/tree/master/extensions)
 
-##Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Command              | Description             |
 |----------------------|:-----------------------:|
