@@ -1,0 +1,54 @@
+{
+	"name": "expand-region",
+	"displayName": "expand-region",
+	"description": "expand selection , It works similar to ExpandRegion for Emacs and “Structural Selection” (Control-W) in the JetBrains IDE's (i.e. IntelliJ IDEA).",
+	"version": "0.0.3",
+	"publisher": "letrieu",
+	"icon": "icon.png",
+	"bugs": {
+		"url": "https://github.com/windwp/vscode-expand-region/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/windwp/vscode-expand-region.git"
+	},
+	"homepage": "https://github.com/windwp/vscode-expand-region/blob/master/README.md",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:expand_region"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "expand_region",
+				"title": "Expand Region"
+			},
+			{
+				"command": "undo_expand_region",
+				"title": "Undo Expand Region"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"test": "mocha --ui tdd --recursive \"out/**/*.test.js\"",
+		"test:watch": "npm run test -- --watch"
+	},
+	"devDependencies": {
+		"mocha": "^2.3.4",
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"__metadata": {
+		"id": "1b625615-bded-4797-9806-079abcacfcc1",
+		"publisherId": "4d250ba7-c3ac-487d-bd31-c86fa8517189",
+		"publisherDisplayName": "Le Trieu"
+	}
+}
