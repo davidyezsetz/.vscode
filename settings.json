@@ -1,15 +1,8 @@
 {
     "workbench.iconTheme": "vs-seti",
-    "sync.gist": "",
-    "sync.lastUpload": "",
-    "sync.autoDownload": false,
-    "sync.autoUpload": false,
-    "sync.lastDownload": "",
-    "sync.version": 251,
-    "sync.showSummary": true,
-    "sync.forceDownload": false,
-    "sync.anonymousGist": false,
     "editor.tabSize": 2,
     "languageStylus.useSeparator": false,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "gitlens.blame.annotation.highlight": "gutter",
+    "gitlens.codeLens.visibility": "ondemand"
 }
