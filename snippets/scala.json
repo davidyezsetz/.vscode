@@ -17,22 +17,22 @@
 	"Image type: T4": {
 		"prefix": "imgt4",
 		"body": [
-			"<img class=\"${2:class}\" alt=\"${3:alt}\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" sizes=\"(min-width: 600px) 33.33vw, 100vw\"",
-			"\tsrcset=\"{{siteImagesUrl}}/media/${1:id}/w288 320w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w576 640w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w620 1024w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w1152 1280w\">"
+			"<img class=\"${2:class}\" alt=\"${3:alt}\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"",
+			"\tsrcset=\"{{siteImagesUrl}}/media/${1:id}/w288 288w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w576 576w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w620 620w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w1152 1152w\">"
 		],
 		"description": "All sizes for a t4 type image"
 	},
 	"Image type: T12": {
 		"prefix": "imgt12",
 		"body": [
-			"<img class=\"${2:class}\" alt=\"${3:alt}\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" sizes=\"100vw\"",
-			"\tsrcset=\"{{siteImagesUrl}}/media/${1:id}/w608 640w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w992 1024w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w1248 1280w,",
-			"\t\t{{siteImagesUrl}}/media/${1:id}/w1984 2048w\">"
+			"<img class=\"${2:class}\" alt=\"${3:alt}\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"",
+			"\tsrcset=\"{{siteImagesUrl}}/media/${1:id}/w608 608w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w992 9924w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w1248 1248w,",
+			"\t\t{{siteImagesUrl}}/media/${1:id}/w1984 1984w\">"
 		],
 		"description": "All sizes for a t12 type image"
 	}
