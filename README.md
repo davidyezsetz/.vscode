@@ -1,5 +1,10 @@
 # Visual Studio Code plugins and settings
-Symlink files to `~/Library/Application Support/Code/User`
+- Replace folder ~/.vscode with repository
+- Remove `~/Library/Application\ Support/Code/User/snippets`
+- Set up symlinks
+-- `ln -s ~/.vscodekeybindings.json ~/Library/Application\ Support/Code/User/`
+-- `ln -s ~/.vscode/settings.json ~/Library/Application\ Support/Code/User/`
+-- `ln -s ~/.vscode/snippets/ ~/Library/Application\ Support/Code/User/`
 
 ## Extensions
 See [extensions](https://github.com/davidyezsetz/.vscode/tree/master/extensions)
